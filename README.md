@@ -6,4 +6,12 @@ local dev environment setup using:
 
 Unit tests:
 On linux:
-- run the install-unit-tests.sh script.
+- run the setup.sh script.
+
+Bash tips:
+
+single vs double brackets:
+  - http://mywiki.wooledge.org/BashFAQ/031
+
+Arithmetic expressions:
+  - http://mywiki.wooledge.org/ArithmeticExpression

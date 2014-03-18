@@ -11,4 +11,4 @@ build:
 	echo "build something!"
 
 setup:
-	./install-unit-testing.sh
+	./setup.sh
