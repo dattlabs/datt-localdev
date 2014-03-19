@@ -6,7 +6,7 @@ python:
   - 3.3
   - pypy
 env:
-  - MOCK=1
+  - DOCKERINDEX_LOCAL="DATT_TRAVISCI"
 before_install:
   - sudo add-apt-repository ppa:duggan/bats --yes
   - sudo apt-get update -qq
