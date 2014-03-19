@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# defaults to local
+ORG=${DATT_ORG:-"local"}
+
+
+DIR="$( cd "$( dirname "$0" )" && pwd )"
+CURRENT_DIR="${DIR##*/}"
+docker build -rm -t=$ORG/$CURRENT_DIR:latest $DIR/.

@@ -4,6 +4,8 @@ local dev environment setup using:
 - headless saltstack
 - docker
 
+[![Coverage Status](https://coveralls.io/repos/dattlabs/datt-localdev/badge.png)](https://coveralls.io/r/dattlabs/datt-localdev)
+
 Unit tests:
 On linux:
 - run the setup.sh script.

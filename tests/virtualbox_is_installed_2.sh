@@ -11,8 +11,6 @@
 # vboxnetadp             25670  0
 # vboxnetflt             27613  0
 # vboxdrv               335365  4 vboxnetadp,vboxnetflt,vboxpci
-
   result="$(lsmod | grep vbox | wc -l)"
   [[ $result = 4 ]]
 }
-
