@@ -1,9 +1,10 @@
 #!/bin/bash
 
-# defaults to local
-ORG=${DATT_ORG:-"local"}
+set -e
 
+DOCKERINDEX=${DOCKERINDEX_LOCAL:-"datt/"}
 
-DIR="$( cd "$( dirname "$0" )" && pwd )"
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 CURRENT_DIR="${DIR##*/}"
-docker build -rm -t=$ORG/$CURRENT_DIR:latest $DIR/.
+
+echo docker build -rm -t=$DOCKERINDEX$CURRENT_DIR:latest $DIR/.
