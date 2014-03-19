@@ -7,7 +7,7 @@ before_install:
   - sudo add-apt-repository ppa:duggan/bats --yes
   - sudo apt-get update -qq
   - sudo apt-get install -qq bats
-  - sudo git clone https://github.com/SimonKagstrom/shcov; cd shcov; python setup.py
+  - sudo git clone https://github.com/SimonKagstrom/shcov; cd shcov; python setup.py install
 # install:
 #   - pip install coveralls --use-mirrors
 script:
