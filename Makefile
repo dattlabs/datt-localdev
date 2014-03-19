@@ -15,4 +15,4 @@ setup:
 
 install:
 	echo "installing something"
-	apt-get install -qq wget
+	apt-get install -qq curl
