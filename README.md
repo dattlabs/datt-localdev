@@ -4,6 +4,8 @@ local dev environment setup using:
 - headless saltstack
 - docker
 
+[![Build Status](https://travis-ci.org/dattlabs/datt-localdev.png?branch=master)](https://travis-ci.org/dattlabs/datt-localdev)
+
 [![Coverage Status](https://coveralls.io/repos/dattlabs/datt-localdev/badge.png)](https://coveralls.io/r/dattlabs/datt-localdev)
 
 Unit tests:
