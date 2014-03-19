@@ -15,4 +15,4 @@ setup:
 
 install:
 	echo "installing something"
-	apt-get -y install wget
+	apt-get install -qq wget
