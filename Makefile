@@ -1,6 +1,6 @@
 
 
-.PHONY: all build test setup
+.PHONY: all build test setup install
 
 all: test build
 
@@ -12,3 +12,7 @@ build:
 
 setup:
 	./setup.sh
+
+install:
+	echo "installing something"
+	apt-get -y install wget
