@@ -10,7 +10,7 @@ before_install:
 install:
   - pip install coveralls --use-mirrors
 script:
-  - bats tests --tap
+  - bats tests/* --tap
   - coverage report -m
 after_success:
   - coveralls
